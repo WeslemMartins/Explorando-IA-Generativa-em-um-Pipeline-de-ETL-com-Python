@@ -1,10 +1,8 @@
-# etl.py
-
 import pandas as pd
 import openai
 
 # Configure a chave de API da OpenAI
-openai.api_key = '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'
+openai.api_key = 'SUA_CHAVE_DE_API_AQUI'
 
 # Função para extração de dados
 def extract_data(csv_path):
